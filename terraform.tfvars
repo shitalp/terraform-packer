@@ -1,1 +1,1 @@
-ami_id=asajax
+ami_id = asajax
