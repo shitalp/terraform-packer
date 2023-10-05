@@ -13,6 +13,7 @@ resource "aws_key_pair" "webkey1" {
 
 variable "ami_id" {
   description = "The AMI ID to use for the EC2 instance"
+  value = "ami-0df094554d7908c82"
 }
 
 resource "aws_security_group" "allow_80" {
